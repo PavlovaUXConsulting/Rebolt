@@ -1,0 +1,505 @@
+Implement the following design in React. Use the following files generated from a Figma design as a specification and guide:
+
+```src/styles/ChessBankPaymentsAndTransfers.module.css
+@import "https://fonts.googleapis.com/css?family=Inter:0,400&display=swap";
+.ChessBankPaymentsAndTransfers_225_4560 {
+  background: #fff;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  height: 100%;
+  min-height: 1000px;
+  padding: 3px 0 60px;
+  display: flex;
+  overflow: hidden;
+}
+.Header_225_4570 {
+  border-bottom: var(--sds-size-stroke-border) solid
+    var(--sds-color-border-default-default);
+  background: var(--sds-color-background-default-default);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 1152px;
+  height: 136.417px;
+  padding: 16px 24px;
+  display: flex;
+}
+.Frame_179_225_4948 {
+  align-items: center;
+  gap: -89px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.ChesapeakeBankLogo_1_225_4825 {
+  aspect-ratio: 139/50;
+  background: #d3d3d3 url(<path-to-image>) 50% / cover no-repeat;
+  width: 139px;
+  height: 50px;
+}
+.Spacer_85_2991 {
+  flex: 1 0 0;
+  width: 100%;
+  height: 17px;
+  overflow: hidden;
+}
+.NavigationPillList_85_2992 {
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 8px var(--sds-size-space-200);
+  flex-wrap: wrap;
+  width: 283px;
+  display: flex;
+}
+.X_85_2994 {
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  padding: 6.5px;
+  display: flex;
+}
+.Spacer_85_2993 {
+  width: 15px;
+  height: 17px;
+  position: absolute;
+  top: 16.5px;
+  right: -1.25px;
+  overflow: hidden;
+}
+.GoodAfternoonMeganWiseman_225_6508 {
+  color: #4f4f4f;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  display: inline-block;
+}
+.Frame_180_225_5230 {
+  align-items: center;
+  gap: 14px;
+  display: flex;
+}
+.FdicLogo_225_5061 {
+  width: 44px;
+  height: 17.417px;
+}
+.FdicInsuredBackedByTheFullFaithAndCreditOfTheUSGovernment_225_5067 {
+  color: #1e1e1e;
+  font-family: var(--sds-typography-body-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  display: inline-block;
+}
+.Frame_5873_339_1062 {
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  max-width: 1152px;
+  padding: 0 24px;
+  display: flex;
+}
+.Groups_225_6685 {
+  background: 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+.Groups_225_6792 {
+  background: #fff;
+  align-items: center;
+  gap: 5px;
+  width: 240px;
+  height: 44px;
+  padding: 15px 16px;
+  display: flex;
+}
+.generated__225_7086 {
+  aspect-ratio: 19/16;
+  flex-shrink: 0;
+  align-items: center;
+  width: 38px;
+  height: 32px;
+  padding: 2.571px 9px 5.429px 0;
+  display: flex;
+}
+.generated__225_7039 {
+  color: #777;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.RemoteDepositC_225_6736 {
+  color: #5c6471;
+  flex: 1 0 0;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.ChevronRight_225_6842 {
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+.Groups_225_6796 {
+  background: #fff;
+  align-items: center;
+  gap: 5px;
+  width: 240px;
+  height: 44px;
+  padding: 15px 16px;
+  display: flex;
+}
+.generated__225_7074 {
+  color: #777;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.Groups_225_6800 {
+  background: #17294a;
+  align-items: center;
+  gap: 5px;
+  width: 240px;
+  height: 44px;
+  padding: 15px 16px;
+  display: flex;
+}
+.generated__225_7105 {
+  flex-shrink: 0;
+  align-items: center;
+  width: 38px;
+  height: 32px;
+  padding: 2.571px 10.476px 5.429px 4.524px;
+  display: flex;
+}
+.generated__225_7076 {
+  color: #777;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.RemoteDepositC_225_6764 {
+  color: #fff;
+  flex: 1 0 0;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.ChevronRight_225_6865 {
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
+}
+.Frame_5871_225_6970 {
+  background: #d9d9d94d;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 240px;
+  padding: 19px 20px 24px 62px;
+  display: flex;
+}
+.TaxPayment_225_6956,
+.TaxPayment_272_1256 {
+  color: #6a727e;
+  width: 146px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.Recipients_225_6958 {
+  color: #6b737f;
+  flex-direction: column;
+  justify-content: center;
+  width: 118px;
+  height: 28px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.AchPassThru_225_6960 {
+  color: #6f7782;
+  flex-direction: column;
+  justify-content: center;
+  width: 174px;
+  height: 26px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.BusinessBillPa_225_6962 {
+  color: #6d7581;
+  flex-direction: column;
+  justify-content: center;
+  width: 190px;
+  height: 28px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.LoanPayment_225_6964 {
+  color: #69717d;
+  width: 161px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.PaymentsHub_225_6966 {
+  color: #6b747f;
+  flex-direction: column;
+  justify-content: center;
+  width: 164px;
+  height: 29px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.TransferFunds_225_6968 {
+  color: #727985;
+  flex-direction: column;
+  justify-content: center;
+  width: 171px;
+  height: 26px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.Groups_225_6804 {
+  background: #fff;
+  align-items: center;
+  gap: 5px;
+  width: 240px;
+  height: 44px;
+  padding: 15px 16px;
+  display: flex;
+}
+.generated__225_7080 {
+  color: #777;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.Groups_225_6914 {
+  background: #fff;
+  align-items: center;
+  gap: 5px;
+  width: 240px;
+  height: 44px;
+  padding: 15px 16px;
+  display: flex;
+}
+.generated__225_7083 {
+  color: #777;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.Groups_225_7126 {
+  background: #fff;
+  align-items: center;
+  gap: 5px;
+  width: 240px;
+  height: 44px;
+  padding: 15px 16px;
+  display: flex;
+}
+.generated__225_7121 {
+  color: #777;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.Groups_225_7132 {
+  background: #fff;
+  align-items: center;
+  gap: 5px;
+  width: 240px;
+  height: 44px;
+  padding: 15px 16px;
+  display: flex;
+}
+.generated__225_7085 {
+  color: #777;
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.Spacer_339_1060 {
+  flex: 1 0 0;
+  width: 100%;
+  height: 624px;
+  overflow: hidden;
+}
+
+```
+
+---
+
+```src/components/assets/FdicLogo.tsx
+import React from 'react';
+export default function FdicLogo() {
+  return <svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clipPath="url(#clip0_339_32)">
+<path d="M4.69398 17.87H0V0.590942H9.65541V5.10736H4.69398V7.90442H9.36885V12.4214H4.69398V17.87Z" fill="#003366"/>
+<path d="M25.0712 9.22204C25.0712 1.30734 17.9724 0.590942 15.0331 0.590942H10.3015V17.8537H15.0331L15.0258 13.353V5.03601C17.937 5.03601 20.4104 6.11145 20.4104 9.19451C20.4104 12.277 17.937 13.353 15.0258 13.353L15.0331 17.8537C18.6904 17.8543 25.0712 17.153 25.0712 9.22204Z" fill="#003366"/>
+<path d="M30.5778 0.554443H25.8838V17.8695H30.5778V0.554443Z" fill="#003366"/>
+<path d="M40.1613 13.2991C37.9064 13.2991 36.0404 11.4617 36.0404 9.20858C36.0404 6.95542 37.9064 5.1175 40.1613 5.1175C42.2172 5.1175 43.2921 6.21093 44 7.65103V1.45121C44 1.45121 41.9216 0.519043 39.9848 0.519043C35.683 0.519043 31.0222 4.47583 31.0222 9.20858C31.0222 15.0027 35.4678 17.8975 39.9848 17.8975C41.9211 17.8975 44 16.9665 44 16.9665V10.8206C43.1527 12.2815 42.206 13.2991 40.1613 13.2991Z" fill="#003366"/>
+</g>
+<defs>
+<clipPath id="clip0_339_32">
+<rect width="44" height="17.4167" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>
+;
+}
+```
+
+---
+
+```src/components/assets/ChevronRight.tsx
+import React from 'react';
+export default function ChevronRight() {
+  return <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.5 15.4165L12.5 10.4165L7.5 5.4165" stroke="#757575" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+;
+}
+```
+
+---
+
+```src/components/ChessBankPaymentsAndTransfers.tsx
+import React from 'react';
+import styles from '../styles/ChessBankPaymentsAndTransfers.module.css';
+import FdicLogo from './assets/FdicLogo';
+import ChevronRight from './assets/ChevronRight';
+
+export default function ChessBankPaymentsAndTransfers() {
+  return (
+    <div className={styles.ChessBankPaymentsAndTransfers_225_4560} data-figma-node="225:4560">
+      <div className={styles.Header_225_4570} data-figma-node="225:4570">
+        <div className={styles.Frame_179_225_4948} data-figma-node="225:4948">
+          <div className={styles.ChesapeakeBankLogo_1_225_4825} data-figma-node="225:4825"></div>
+          <div className={styles.Spacer_85_2991} data-figma-node="85:2991"></div>
+          <div className={styles.Spacer_85_2993} data-figma-node="85:2993"></div><span className={styles.GoodAfternoonMeganWiseman_225_6508} data-figma-node="225:6508">Good Afternoon, Megan Wiseman</span>
+        </div>
+        <div className={styles.Frame_180_225_5230} data-figma-node="225:5230">
+          <div className={styles.FdicLogo_225_5061}>
+            <FdicLogo data-figma-node="225:5061" />
+          </div><span className={styles.FdicInsuredBackedByTheFullFaithAndCreditOfTheUSGovernment_225_5067} data-figma-node="225:5067">FDIC-insured- Backed by the full faith and credit of the U.S. Government</span>
+        </div>
+      </div>
+      <div className={styles.Frame_5873_339_1062} data-figma-node="339:1062">
+        <div className={styles.Groups_225_6685} data-figma-node="225:6685">
+          <div className={styles.Groups_225_6792} data-figma-node="225:6792">
+            <div className={styles.generated__225_7086} data-figma-node="225:7086"><span className={styles.generated__225_7039} data-figma-node="225:7039">&#x10039E;</span></div><span className={styles.RemoteDepositC_225_6736} data-figma-node="225:6736">Dashboard</span>
+            <div className={styles.ChevronRight_225_6842}>
+              <ChevronRight data-figma-node="225:6842" />
+            </div>
+          </div>
+          <div className={styles.Groups_225_6796} data-figma-node="225:6796">
+            <div className={styles.generated__225_7086} data-figma-node="225:7086"><span className={styles.generated__225_7074} data-figma-node="225:7074">&#x10031E;</span></div><span className={styles.RemoteDepositC_225_6736} data-figma-node="225:6736">Remote Deposit Capture</span>
+            <div className={styles.ChevronRight_225_6842}>
+              <ChevronRight data-figma-node="225:6842" />
+            </div>
+          </div>
+          <div className={styles.Groups_225_6800} data-figma-node="225:6800">
+            <div className={styles.generated__225_7105} data-figma-node="225:7105"><span className={styles.generated__225_7076} data-figma-node="225:7076">&#x1005D7;</span></div><span className={styles.RemoteDepositC_225_6764} data-figma-node="225:6764">Payment &#x26; Transfers</span>
+            <div className={styles.ChevronRight_225_6865}>
+              <ChevronRight data-figma-node="225:6865" />
+            </div>
+          </div>
+          <div className={styles.Frame_5871_225_6970} data-figma-node="225:6970"><span className={styles.TaxPayment_225_6956} data-figma-node="225:6956">Send Money</span><span className={styles.TaxPayment_272_1256} data-figma-node="272:1256">Tax Payment</span><span className={styles.Recipients_225_6958} data-figma-node="225:6958">Recipients</span><span className={styles.AchPassThru_225_6960} data-figma-node="225:6960">ACH Pass-Thru</span><span className={styles.BusinessBillPa_225_6962} data-figma-node="225:6962">Business Bill Pay</span><span className={styles.LoanPayment_225_6964} data-figma-node="225:6964">Loan Payment</span><span className={styles.PaymentsHub_225_6966} data-figma-node="225:6966">Payments Hub</span><span className={styles.TransferFunds_225_6968} data-figma-node="225:6968">Transfer Funds</span></div>
+          <div className={styles.Groups_225_6804} data-figma-node="225:6804">
+            <div className={styles.generated__225_7086} data-figma-node="225:7086"><span className={styles.generated__225_7080} data-figma-node="225:7080">&#x100752;</span></div><span className={styles.RemoteDepositC_225_6736} data-figma-node="225:6736">Manage company</span>
+            <div className={styles.ChevronRight_225_6842}>
+              <ChevronRight data-figma-node="225:6842" />
+            </div>
+          </div>
+          <div className={styles.Groups_225_6914} data-figma-node="225:6914">
+            <div className={styles.generated__225_7086} data-figma-node="225:7086"><span className={styles.generated__225_7083} data-figma-node="225:7083">&#x10036F;</span></div><span className={styles.RemoteDepositC_225_6736} data-figma-node="225:6736">Debit cards</span>
+            <div className={styles.ChevronRight_225_6842}>
+              <ChevronRight data-figma-node="225:6842" />
+            </div>
+          </div>
+          <div className={styles.Groups_225_7126} data-figma-node="225:7126">
+            <div className={styles.generated__225_7086} data-figma-node="225:7086"><span className={styles.generated__225_7121} data-figma-node="225:7121">&#x100BEA;</span></div><span className={styles.RemoteDepositC_225_6736} data-figma-node="225:6736">Account Maintenance</span>
+            <div className={styles.ChevronRight_225_6842}>
+              <ChevronRight data-figma-node="225:6842" />
+            </div>
+          </div>
+          <div className={styles.Groups_225_7132} data-figma-node="225:7132">
+            <div className={styles.generated__225_7086} data-figma-node="225:7086"><span className={styles.generated__225_7085} data-figma-node="225:7085">&#x10017C;</span></div><span className={styles.RemoteDepositC_225_6736} data-figma-node="225:6736">Apply &#x26; Enroll</span>
+            <div className={styles.ChevronRight_225_6842}>
+              <ChevronRight data-figma-node="225:6842" />
+            </div>
+          </div>
+        </div>
+        <div className={styles.Spacer_339_1060} data-figma-node="339:1060"></div>
+      </div>
+    </div>
+  );
+}
+```
+
